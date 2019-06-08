@@ -1,5 +1,9 @@
 package lesson1;
 
+import lesson1.bigTask.Apple;
+import lesson1.bigTask.Box;
+import lesson1.bigTask.Orange;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -52,7 +56,6 @@ public class Solution<T> {
         System.out.println(appleBox1.getWeight());
         System.out.println(orangeBox.getWeight());
         System.out.println(appleBox1.compare(orangeBox));
-
 
     }
 
