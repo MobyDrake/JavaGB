@@ -9,9 +9,6 @@ public class Box<T extends Fruit> {
         this.box = new ArrayList<>();
     }
 
-    public void setBox(ArrayList<T> box) {
-        this.box = box;
-    }
 
     public void addFruit(T fruit) {
         box.add(fruit);
