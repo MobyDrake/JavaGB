@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1.bigTask;
 
 public abstract class Fruit {
 

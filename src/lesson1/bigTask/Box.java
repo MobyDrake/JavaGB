@@ -1,41 +1,33 @@
-package lesson1;
+package lesson1.bigTask;
 
 import java.util.ArrayList;
 
 public class Box<T extends Fruit> {
-    private ArrayList<T> list;
-    private float weight = 0;
+    private ArrayList<T> box;
 
     public Box() {
-        this.list = new ArrayList<>();
+        this.box = new ArrayList<>();
+    }
+
+    public void setBox(ArrayList<T> box) {
+        this.box = box;
     }
 
     public void addFruit(T fruit) {
-        if (list == null) {
-            list = new ArrayList<>();
-        }
-        list.add(fruit);
-        weight += fruit.getWeight();
+        box.add(fruit);
     }
 
     public float getWeight() {
-        return weight;
+        return box.size() != 0 ? box.size() * box.get(0).getWeight() : 0;
     }
 
     public boolean compare(Box box) {
-        if (box != null) {
-            return Box.this.getWeight() == box.getWeight();
-        }
-        return false;
+        return Box.this.getWeight() == box.getWeight();
+
     }
 
-    public void toPour(Box<T> box) {
-        if (weight != 0) {
-            for (T tt : list) {
-                box.addFruit(tt);
-            }
-            list = null;
-            weight = 0;
-        }
+    public void toPour(Box<T> otherBox) {
+        otherBox.box.addAll(this.box);
+        box.clear();
     }
 }
