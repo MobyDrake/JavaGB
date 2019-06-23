@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a2d9cf-d595-45fa-8ed8-3fd40d444e01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Road.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Stage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Tunnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/Tunnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/Tunnel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,21 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="627">
+              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#284:391" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            <state relative-caret-position="556">
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="initializer##0;class#Car#0" />
                 <element signature="e#234#235#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
@@ -51,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Race.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="380">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
@@ -75,7 +79,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Tunnel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="method#Tunnel#0;class#Tunnel#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,10 +125,10 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson3/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson4/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson5/Race.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/Stage.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/Road.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/Tunnel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson5/Race.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/Car.java" />
       </list>
@@ -183,6 +190,45 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaLearnGB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="javaLearnGB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="javaLearnGB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaLearnGB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaLearnGB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaLearnGB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,6 +345,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -309,7 +356,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27843988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7703142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,10 +443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/MainClass.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="155">
+          <caret line="162" column="27" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -414,18 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Race.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Road.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -436,19 +471,49 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Tunnel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="method#Tunnel#0;class#Tunnel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        <state relative-caret-position="556">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Car#0" />
             <element signature="e#234#235#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#284:391" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
           </folding>
         </state>
       </provider>
