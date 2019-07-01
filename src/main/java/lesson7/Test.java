@@ -8,6 +8,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface SolTest {
+public @interface Test {
     int priority() default 5;
 }
